@@ -1,0 +1,50 @@
+*{
+    font-family: Arial
+  }
+  
+  #container{
+    position: relative;
+    margin: 100px auto;
+    height: 260px;
+    width: 521px;
+    text-align: center;
+  }
+  
+  h1{
+    color: black;
+  }
+  
+  label{
+    color: black;
+    padding: 10px
+  }
+  
+  #numIn{
+    font-family: arial;
+    margin-top: 30px;
+    width: 170px
+  }
+  
+  #but{
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    color: black;
+    margin: 20px;
+  }
+  
+  p{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  
+  #passout{
+    color: black;
+    font-size: 24px;
+  }
+  
+  #but2{
+    margin: 30px;
+    cursor: pointer;
+  }

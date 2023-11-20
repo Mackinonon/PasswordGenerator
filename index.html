@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <title>This Title Shows in the Browser Tab</title>
+        <meta name="description" content="Our first page">
+        <meta name="keywords" content="html tutorial template">
+        <link rel="stylesheet" type="text/css" href="style.css" /> 
+    </head>
+    
+    <body>
+        <div id="container">
+            <h1>Password Generator</h1>
+            <label for="cars">Choose A Catagory</label>
+            <br>
+            <select name="select" id="select">
+          <!--     creates a select box -->
+              <option value="colours" >Colours</option>
+              <option value="animals">Animals</option>
+              <option value="singer">Singers</option>
+              <option value="cars">Cars</option>
+          <!--     creates values inside the box -->
+            </select>
+            <br>
+            <input placeholder="Password length(8 to 20)" type="number" id="numIn" name="numIn">
+            <br>
+            <button type="button" id="but"><p>Get Password</p></button>
+            <div id="passout"></div>
+            <button type="button" id="but2"><p>Clear</p></button>
+            </div>
+        <script src="javascript.js"></script>
+    </body>
+</html>
